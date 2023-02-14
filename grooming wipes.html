@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../211021_BS_01/bootstrap/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<style>
+    .img1{
+        background-image: url(images/grooming-bg-1.jpg);
+        background-attachment:relative;
+        background-size:100% 100%;
+        width: 100%;
+        height: 500px;
+    }
+    nav{
+            background-color: #26221F;
+        }
+        .shopNow1{
+            font-family: Heebo;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 24px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            border-radius: 0px;
+            border: 2px solid white;
+            padding: 10px 40px;
+
+        }
+        .challange{
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 24px;
+
+            display: flex;
+            align-items:center;
+            text-align:right;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: white;
+            margin-right: 40px;
+            margin-top: 10px;
+
+        }
+        
+.cusp{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: white;
+    margin-right: 40px;
+    margin-top: 10px;
+
+}
+</style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid p-2">
+            <a class="navbar-brand" href="task bs.html">
+                <h3 style="margin:0; font-size: 1.7em; font-weight: 600; letter-spacing: 4px;">TOMMY'S</h3>
+            </a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navb">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navb">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item ml-4 ourSupplyNav">
+                        <a class="nav-link" href="#our-supply">
+                            <h6 style="font-weight: 500; font-size: 1.2em;">OUR SUPPLY</h6>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tommy-story">
+                            <h6 style="font-weight: 500; font-size: 1.2em;">TOMMY'S STORY</h6>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+
+                    </li>
+                </ul>
+                <p class="cusp">
+                    <a href="#30-day" class="text-white" style="font-weight: 500; font-size: 1.2em;">
+                        30-DAY CHALLANGE
+                    </a>
+                </p>
+                <button class="btn btn-outline-secondary my-2 shopNow1" type="button" style="font-weight: 400; font-size: 1.1em;">SHOP NOW</button>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="col-md-12">
+        </div>
+        <div class="row">
+        <div class="col-md-6 text-right pt-5">
+            <img src="images/grooming-wipes.png" width="250px" alt="" >
+        </div>
+        <div class="col-md-4 p-4 m-0" style="background-color: white;
+        border-bottom-style:solid; border-bottom-color: #2f95cf ; border-bottom-width: 8px;">
+            <h4 style="font-size: 1.1em; letter-spacing: 2px;">TOMMY'S ALL PURPOSE</h4>
+            <h2 style="font-weight: 600;">GROOMING WIPES</h2>
+            <br>
+            <p style=" font-size: 0.8em; letter-spacing: 0.6px; font-weight: 300;">Our textureed XL wipes are expertly designed for <br>
+            everyday cleansing and dedorizing. These are hypo- <br>
+        allergenic,paraban-free,and 100% biodegradable for <br>
+    your pet and our planet's safety. <br>
+<br>
+-Removes debri between baths <br>
+-Cleans muddy paws <br>
+-Hydrate skin & coat <br>
+-Quickly dedorizes </p>
+<br>
+<button style="background-color: white; border-style: solid; border-color: black;" class="btn btn-secondary">
+    <a href="task bs.html" style="color: black; text-decoration: none;"><b>BUY NOW </b></a>
+</button>
+        </div>
+    </div>
+    </div>
+    <div class="container-fluid text-white p-5" style="background-color: black;" id="30-day">
+        <div class="row">
+            <div class="col-md-5  text-center">
+                <h1 style="font-size: 1.9em; font-weight: 600; ">TAKE THE 30 DAY CHALLENGE</h1>
+            </div>
+            <div class="col-md-5 text-left ">
+                <p style=" font-weight: 600; font-size: 1.2em;">See what our wipes can do over 30 days and we’ll give <br>
+                    you 20% off your next order.</p>
+            </div>
+            <div class="col-md-2">
+                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#myModal"
+                    style="border-style: solid; border-color: white; background-color: black;">
+                      GET COUPON
+                    </button>
+                  
+                    <!-- The Modal -->
+                    <div class="modal" id="myModal">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                        
+                          <!-- Modal Header -->
+                          <div class="modal-header text-white" style="background-color: black;">
+                            <h4 class="modal-title">Enter Required Data</h4>
+                            <button type="button" class="close" data-dismiss="modal" style="color: white;">&times;</button>
+                          </div>
+                          
+                          <!-- Modal body -->
+                          <div class="modal-body">
+                            <h6 style="color: black;">*Your Email</h6>
+                            <input type="email" class="form-control">
+                            <br>
+                            <h6 style="color: black;">*Purchase Date</h6>
+                            <input type="date" class="form-control">
+                          </div>
+                          
+                          <!-- Modal footer -->
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-success" data-dismiss="modal">Submit</button>
+                          </div>
+                          
+                        </div>
+                      </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+       <br>
+    <br>
+    <div class="container-fluid p-5" style="border-bottom: 1px black; border-radius: 4px; border-bottom-style: solid;">
+        <div class="col-md-12 ">
+            <h6 style="letter-spacing: 2px; font-weight: 700;">
+                <u>FEATURED INGREDIENTS</u>
+            </h6>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-3">
+                <img src="images/p2f1.png" width="260px" alt="">
+            </div>
+            <div class="col-md-9 text-left" >
+                <h2 style="font-size: 1.5em;">PET-SAFE ALOE VERA</h2>
+                <p style="font-weight: 500;">Aloe Vera's hydrating compounds improve skin texture and prevent dyrness.Aloe is anatural anti- <br>
+                inflammatory and anti-bacterial,added to remove harmful microbes and leave behind a layer of repair. <br></p>
+                <br>
+               <h6 style="color: #2f95cf;">Did you know? Most Aloe products are toxic to dogs.</h6> 
+            </div>
+            <br>
+            <br>
+            <div class="col-md-3 pt-5">
+                <img src="images/pf3.png" width="260px" alt="">
+            </div>
+            <div class="col-md-9 text-left pt-5">
+                <h2 style="font-size: 1.5em;">OATMEAL </h2>
+                <p style="font-weight:500">Oatmeal acts as a natural cleanser,anti-infective,and anti-inflammatory.It delicately hydrates the skin while, <br>
+                reducing redness.</p>
+            </div>
+            <br>
+            <br>
+            <div class="col-md-3 pt-5">
+                <img src="images/p2f3.png" width="260px" alt="">
+            </div>
+            <div class="col-md-9 text-left pt-5">
+                <h2 style="font-size: 1.5em;">VITAMIN E</h2>
+                <p style="font-weight:500;">Vitammin E is an antioxidant that supports a healthy, shiny coat.It is a natural hydrant and fights flakiness, <br>
+                alleviating dry skin and itchiness.The combination of Vitamin E + Oatmean has been proven time and time <br>
+            again to be one of the most effective ways to treat and nourish skin. <br> </p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container-fluid p-4" style="border-bottom: 1px black; border-radius: 4px; border-bottom-style: solid;">
+        <div class="col-md-12 ">
+            <h6 style="letter-spacing: 4px; font-weight: 600;">
+                <u>FEATURED MATERIALS</u>
+            </h6>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-1">
+                <img src="images/pi1.PNG" width="100px"  alt="">
+            </div>
+            <div class="col-md-5 text-left">
+                <h2>EXTRA LARGE WIPES</h2>
+                <p style="font-size: 0.9em; font-weight: 600;">Our 9" X 8" are to benefit pets of all sizes,and enable <br>
+                you to clean large or multiple areas,not just one <br>
+                 spot.</p>
+            </div>
+            <div class="col-md-1 ">
+                <img src="images/pi2.PNG" width="100px" alt="">
+            </div>
+            <div class="col-md-5 text-left ">
+                <h2>TEXTURED FABRIC</h2>
+                <p style="font-size:0.9em;font-weight: 600;">The embossed fabric we use is ideal for trapping <br>
+                debris,prevents easy tear,and provides assisted <br>
+            grip.</p>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col-md-1">
+                <img src="images/pi3.PNG" width="100px" alt="">
+            </div>
+            <div class="col-md-5 text-left">
+                <h2>SUPER SATURATED</h2>
+                <p style="font-size: 0.9em;font-weight: 600;">Our wipes are perfectly saturated to prevent drying <br>
+                without leaving a mess.Our reasonable lids lock in <br>
+            this level of moisture for long-term use.</p>
+            </div>
+            <div class="col-md-1 ">
+                <img src="images/pi4.PNG" width="100px" alt="">
+            </div>
+            <div class="col-md-5 text-left ">
+                <h2>BIODEGRADABLE</h2>
+                <p style="font-size: 0.9em; font-weight: 600;">
+                    Our wipes are made from 100% viscose and are <br>
+                    100% biodegradable.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid p-4">
+        <div class="col-md-12">
+            <h6 style="font-size: 1.4em; letter-spacing: 4px;">Did You Know?</h6>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-8">
+                <h2 style="font-size: 1.7em; font-weight: 600;">MOST ALOE VERA IS LISTED AS <br> TOXIC BY THE ASPCA</h2>
+                <p style="font-weight: 600;">Many aloe products made for humans frequently contain alchohol that could cause burning and be very painful <br>
+                for your pet.Should all parts of the aloe plant be used when creating your aloe vera product,your pet could <br>
+            experience vomiting and diarrhea. <br>
+        Do not ever use a product with aloe vera on your pet unless it specifies the aloe is 100% pet safe,like that <br>
+included in Tommy's Pet supply products.     </p>
+            </div>
+            <div class="col-md-4">
+                <img src="images/p2l.png" width="250px" alt="">
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="container-fluid p-5 text-white" style="background-color: black;">
+        <div class="row">
+            <div class="col-md-9">
+                <h3 style="font-size: 2.2em; font-weight: 600;">LET'S GET SOCIAL</h3>
+            </div>
+            <div class="col-md-3 text-right">
+                <img src="images/facebook.png" width="47px" alt="">
+                <img src="images/insta.png" width="47px" alt="">
+                <img src="images/twitter.png" width="47px" alt="">
+            </div>
+            <div class="col-md-3 pt-5">
+                <img src="images/instaphotos/9.jpg" width="300px" alt="">
+            </div>
+            <div class="col-md-3 pt-5">
+                <img src="images/instaphotos/8.jpg" width="300px" alt="">
+            </div>
+            <div class="col-md-3 pt-5">
+                <img src="images/instaphotos/11.jpg" width="300px" alt="">
+            </div>
+            <div class="col-md-3 pt-5">
+                <img src="images/instaphotos/6.jpg" width="300px" alt="">
+            </div>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-12 pt-5">
+                        <h2 style="font-size: 2.2em; letter-spacing: 2px;">JOIN TOMMY'S TRIBE</h2>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <input type="email" class="form-control" placeholder="Enter Your Email Adress"
+                                    style="background-color: black; color: white;">
+                                <div class="col-md-4 pt-3 btn1">
+                                    <button
+                                        style="color: white; background-color: black; border-style: solid;
+                        border-color: white; padding-left: 50px;padding-right: 50px; padding-top: 6px; padding-bottom: 8px; ">
+                                        <b>SUBSCRIBE</b>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-2"
+                        style="border-right: 2px white; border-radius: 3px; border-right-style: solid;">
+                    </div>
+                    <div class="col-md-4 pt-4 pl-5">
+                        <img src="images/footer-dog.png" width="130px" alt="">
+                    </div>
+                    <div class="col-md-6 pt-4 ">
+                        <h4 style="font-size: 1.4em;">Tommy’s Skin Care Tips</h4>
+                        <h6 style="font-size: 1.2em;">It’s never too late for new tricks!</h6>
+                        <button style="color: white; background-color: black; border-style: solid;
+                            border-color: white; padding-left: 50px;padding-right: 50px; padding-top: 6px; padding-bottom: 8px;
+                            margin-top: 20px; ">
+                            <b>DOWNLOAD E-BOOKLET</b>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid p-4 text-white" style="background-color: black;">
+        <div class="row ">
+            <div class="col-md-3 ">
+                <img src="images/doglogo2.png" width="60px" alt="">
+                <b>TOMMY'S 2020 ©</b>
+            </div>
+            <div class="col-md-9 text-right">
+                <button style="background-color: black; border: none; padding-top: 12px;">
+                    <a href="contact us form .html"
+                        style="color: white; font-weight: 600; letter-spacing: 2px;">CONTACT US</a>
+                    <span style="border-right: 2px solid white; border-radius: 2px;">
+                        &nbsp;
+                    </span>
+                </button>
+                <button style="background-color: black;border: none;">
+                    <a href="" style="color: white; font-weight: 600; letter-spacing: 4px;">TERMS</a>
+                </button>
+                <span style="border-right: 2px solid white; border-radius: 2px;"></span>
+                <button style="background-color: black; border: none; margin-left: 8spx;">
+                    <a href="" style="color: white; font-weight: 600; letter-spacing: 4px;">PRIVACY</a>
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
